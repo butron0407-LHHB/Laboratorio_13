@@ -1,15 +1,18 @@
+/*Modifica color de fondo y texto */
 body{
     background-color: #006b81;
     color: #c7e418;
 }
 
+/*Modifica fuente,color de fondo y texto */
 .btn{
     background-color: #ec432f;
     font-family: fantasy;
     color: #006b81;
 }
 
+/*Modifica color de fondo y texto */
 .card {
-  background-color: #2c2c2b; /* Este es un color de fondo oscuro, puedes cambiarlo */
-  color: #FFFFFF;           /* Esto establece el color del texto a blanco */
+  background-color: #2c2c2b; 
+  color: #FFFFFF; 
 }
