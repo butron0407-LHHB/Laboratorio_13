@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    
+    <!--Enlace CDN de bootstrap para CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!--Enlace de CSS propio-->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <h1>Inicio con Bootstrap</h1>
+    <hr>
+    <!--Tarea 2: Botón-->
+    <h2>Tarea 2: Botón </h2>
+    <!--Botón de bootstrap modificado con CSS propio-->
+    <button type="button" class="btn">Small button</button>
+    <br>
+    <br>
+    <hr>
+    <!--Tarea 3: Botones en grupo -->
+    <h2>Tarea 3: Botones en grupo </h2>
+    <!--Botones en grupo de bootstrap modificados -->
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-primary">Izquierdo</button>
+        <button type="button" class="btn btn-primary">Arriba</button>
+        <button type="button" class="btn btn-primary">Abajo</button>
+        <button type="button" class="btn btn-primary">Derecha</button>
+    </div>
+    
+
+    <br>
+    <br>
+    <hr>
+    <!--Tarea 4: Tarjetas -->
+    <h2>Tarea 4: Tarjetas </h2>
+    <!-- Tarjetas de bootstrap modificadas -->
+
+    <div class="d-flex justify-content-center gap-3">
+        <div class="card" style="width: 18rem;">
+            <img src="./imagenes/Checo.png" class="card-img-top" alt="Checo-perez-victorias-y-podios-en-formula-1">
+            <div class="card-body">
+                <h5 class="card-title">Checo Pérez</h5>
+                <p class="card-text">Checo Pérez deja Red Bull tras cuatro temporadas, 29 podios y un legado histórico para México en la Fórmula 1.</p>
+                <a href="https://www.gq.com.mx/deportes/articulo/checo-perez-victorias-y-podios-en-formula-1" class="btn btn-primary">Leer más</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="./imagenes/Checo2.png" class="card-img-top" alt="Checo-Verstappen">
+            <div class="card-body">
+            <h5 class="card-title">¡No lo olvida! Verstappen le recuerda a periodista victoria de Checo Pérez en Singapur</h5>
+            <p class="card-text">El neerlandés hizo la aclaración de que Red Bull sí ha ganado en Marina Bay</p>
+            <a href="https://www.record.com.mx/formula1/no-lo-olvida-verstappen-le-recuerda-periodista-victoria-de-checo-perez-en-singapur" class="btn btn-primary">Leer más</a>
+            </div>
+        </div>
+    </div>
+    <!--Enlace CDN de bootstrap para JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

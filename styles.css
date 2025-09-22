@@ -1,0 +1,15 @@
+body{
+    background-color: #006b81;
+    color: #c7e418;
+}
+
+.btn{
+    background-color: #ec432f;
+    font-family: fantasy;
+    color: #006b81;
+}
+
+.card {
+  background-color: #2c2c2b; /* Este es un color de fondo oscuro, puedes cambiarlo */
+  color: #FFFFFF;           /* Esto establece el color del texto a blanco */
+}
